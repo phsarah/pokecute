@@ -1,21 +1,44 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import { goToDetail } from '../../route/Coordinator'
 import {Container} from './styles'
 
 
 function PokemonCard(props){
+    const [pokemonDetails, setPokemonDetails] = useState([])
+    const [pokemonImage, setPokemonImage] = useState()
 
+    useEffect(() => {
+        getPokemonDetails()
+    }, [])
     const history = useHistory()
+
+    const getPokemonDetails = () => {
+        axios
+            .get(`${props.pokemonURL}`)
+            .then((res) => {
+                setPokemonDetails(res)
+                setPokemonImage(res.data.sprites.front_default)
+            })
+            .catch((e) => {
+                console.log(e)
+            })
+    }
+
 
     const Button = () => {
         switch(props.title){
             case('Home'):
             return(
                 <div>
-                    <button>Adicionar</button>
                     <button
-                        onClick={() => goToDetail(history)}
+                        onClick={props.addToPokedex}
+                    >
+                        Adicionar
+                    </button>
+                    <button
+                        onClick={props.setPokemon}
                     >
                         ver detal.
                     </button>
@@ -34,7 +57,8 @@ function PokemonCard(props){
     }
     return(
         <Container>
-            <div>Foto</div>
+            <p>{props.pokemonName}</p>
+            <img src={pokemonImage}/>
             <Button/>
         </Container>
     )
