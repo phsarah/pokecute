@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import GlobalStateContext from '../../global/GlobalStateContext'
 import Navbar from '../../components/navbar/Navbar'
-import PokemonCard from '../../components/pokemonCard/PokemonCard'
+import PokeCard from '../../components/pokeCard/PokeCard'
 import {ContainerGrid} from './styles'
 
 function HomePage(){
@@ -14,14 +14,15 @@ function HomePage(){
 
     const pokemonsInPokeCard = states.pokemonList.map((pokemon) => {
         return (
-            <PokemonCard
+            <PokeCard
                 title="Home"
                 key={pokemon.name}
                 pokemonName={pokemon.name}
                 pokemonURL={pokemon.url}
                 addToPokedex = {() => addToPokedex(pokemon)}
                 setPokemon = {() => setPokemon(pokemon.name)}
-            />
+                
+            /> 
         )
     })
 
@@ -46,7 +47,6 @@ function HomePage(){
             <Navbar title="Home"/>
             <ContainerGrid>
                 {pokemonsInPokeCard}
-
             </ContainerGrid>
 
         </div>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import axios from 'axios'
-import {BASE_URL} from '../constants/BaseUrl'
-import GlobalStateContext from './GlobalStateContext'
+import axios from 'axios';
+import {BASE_URL} from '../constants/BaseUrl';
+import GlobalStateContext from './GlobalStateContext';
 
 const GlobalState = (props) => {
     const [pokemonList, setPokemonList] = useState([])
@@ -12,7 +12,6 @@ const GlobalState = (props) => {
         axios
             .get(`${BASE_URL}pokemon/?offset=0&limit=60`)
             .then((res) => {
-                console.log(res)
                 setPokemonList(res.data.results)
             })
             .catch((error) => {

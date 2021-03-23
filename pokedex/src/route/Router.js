@@ -14,7 +14,7 @@ function Router(){
                 <Route exact path="/pokedex">
                     <Pokedex/>
                 </Route>
-                <Route exact path="/detail">
+                <Route exact path="/details">
                     <DetailPage/>
                 </Route>
             </Switch>
