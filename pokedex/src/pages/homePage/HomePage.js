@@ -2,7 +2,7 @@ import React, {useContext, useEffect} from "react";
 import GlobalStateContext from '../../global/GlobalStateContext'
 import Navbar from '../../components/navbar/Navbar'
 import PokeCard from '../../components/pokeCard/PokeCard'
-import {ContainerGrid} from './styles'
+import {ContainerGrid, Container} from './styles'
 
 function HomePage(){
     
@@ -43,13 +43,13 @@ function HomePage(){
     }   
     
     return(
-        <div>
+        <Container>
             <Navbar title="Home"/>
             <ContainerGrid>
                 {pokemonsInPokeCard}
             </ContainerGrid>
 
-        </div>
+        </Container>
     )
 }
 

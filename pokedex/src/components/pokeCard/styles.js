@@ -6,18 +6,21 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    border: 2px solid Gainsboro;
-    background-color: Gainsboro;
-
+    border: 2px solid #E8E8E8;
+    background-color: #E8E8E8;
+    border-radius: 19px;
+    box-shadow: 10px 30px 35px;
 `
 
 export const HeaderIndex = styled.div`
     position: relative;
-    border-bottom: 2px solid Gainsboro;
-    background-color: Gainsboro;   
+    border-bottom: 2px solid #E8E8E8;
+    background-color: #E8E8E8	;   
     width: 35vh;
-    height: 20px;
+    height: 40px;
     padding: 10px 10px 5px 10px;
+    border-radius: 15px 15px 0px 0px;
+
 `
 
 export const CardBody = styled.div`
@@ -26,4 +29,5 @@ export const CardBody = styled.div`
     background-color: white;
     align-items: center;
     width: 100%;
+    border-radius: 20px;
 `

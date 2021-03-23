@@ -2,6 +2,8 @@ import React, {useContext, useEffect} from "react";
 import GlobalStateContext from '../../global/GlobalStateContext'
 import Navbar from '../../components/navbar/Navbar'
 import PokeCard from "../../components/pokeCard/PokeCard"
+import {ContainerGrid} from './styles'
+
 
 function Pokedex(){
     const { states, setters, requests } = useContext(GlobalStateContext)
@@ -20,7 +22,9 @@ function Pokedex(){
     return(
         <div>
             <Navbar title="Pokedex"/>
+            <ContainerGrid>
             {pokemonInPokedex}
+            </ContainerGrid>
 
         </div>
     )

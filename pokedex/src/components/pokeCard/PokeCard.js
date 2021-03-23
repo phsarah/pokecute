@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import CardActions from '@material-ui/core/CardActions';
-import Button from '@material-ui/core/Button';
+import { Button } from "@chakra-ui/react"
 import {Container, HeaderIndex, CardBody} from './styles'
 import Typography from '@material-ui/core/Typography';
 
@@ -43,15 +43,19 @@ function PokeCard(props){
             return(
                 <div>
                     <Button
+                        variant="outline"
                         onClick={props.addToPokedex}
                     >
                         Adicionar
                     </Button>
+                    
                     <Link to={'/details'}>
                     <Button
+                    
+                        variant="outline"
                         onClick={props.setPokemon}
                     >
-                        ver detal.
+                        Ver detal.
                     </Button>
                     </Link>
                 </div>
@@ -59,8 +63,16 @@ function PokeCard(props){
             case('Pokedex'):
             return(
                 <div>
-                    <Button>Remover</Button>
-                    <Button>ver detal.</Button>
+                    <Button
+                        variant="outline"
+                    >
+                        Remover
+                    </Button>
+                    <Button
+                        variant="outline"
+                    >
+                        ver detal.
+                    </Button>
                 </div>
             )
             default:
@@ -69,12 +81,13 @@ function PokeCard(props){
     }
     return(
         <Container>
-           <HeaderIndex>
-                {pokemonIndex}
+          
+            <CardBody>
+              <HeaderIndex>
+                00{pokemonIndex}
            </HeaderIndex>
-              <CardBody>
                 <img src={pokemonImage}/>
-                <Typography align="center" >
+                <Typography align="center">
                     {props.pokemonName}
                 </Typography>
                 <CardActions>
