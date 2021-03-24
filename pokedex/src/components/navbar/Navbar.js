@@ -34,7 +34,7 @@ function Navbar(props){
                     color="white"
                     onClick={() => goToHome(history)}
                 >
-                    Voltar para a lista de pokemons
+                    Lista de Pokemons
                 </Button>
             )
             case('Detail'):

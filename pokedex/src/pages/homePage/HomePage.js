@@ -1,11 +1,10 @@
-import React, {useContext, useEffect} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import GlobalStateContext from '../../global/GlobalStateContext'
 import Navbar from '../../components/navbar/Navbar'
 import PokeCard from '../../components/pokeCard/PokeCard'
 import {ContainerGrid, Container} from './styles'
 
 function HomePage(){
-    
     const { states, setters, requests } = useContext(GlobalStateContext)
 
     useEffect(() => {

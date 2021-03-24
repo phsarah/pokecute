@@ -6,12 +6,15 @@ import CardActions from '@material-ui/core/CardActions';
 import { Button } from "@chakra-ui/react"
 import {Container, HeaderIndex, CardBody} from './styles'
 import Typography from '@material-ui/core/Typography';
+import CircularProgress from '@material-ui/core/CircularProgress'
 
 
 function PokeCard(props){
     const [pokemonDetails, setPokemonDetails] = useState([])
     const [pokemonImage, setPokemonImage] = useState()
     const [pokemonIndex, setPokemonIndex] = useState("")
+    const [isLoading, setIsLoading] = useState(false)
+
 
     useEffect(() => {
         getPokemonDetails()
@@ -25,13 +28,16 @@ function PokeCard(props){
     }
 
     const getPokemonDetails = () => {
+        setIsLoading(true)
         axios
             .get(`${props.pokemonURL}`)
             .then((res) => {
                 setPokemonDetails(res)
                 setPokemonImage(res.data.sprites.front_default)
+                setIsLoading(false)
             })
             .catch((e) => {
+                setIsLoading(false)
                 console.log(e)
             })
     }
@@ -65,6 +71,7 @@ function PokeCard(props){
                 <div>
                     <Button
                         variant="outline"
+                        onClick={props.removePokemon}
                     >
                         Remover
                     </Button>
@@ -86,7 +93,7 @@ function PokeCard(props){
               <HeaderIndex>
                 00{pokemonIndex}
            </HeaderIndex>
-                <img src={pokemonImage}/>
+                {isLoading ? <CircularProgress size={30}/> : <img src={pokemonImage}/>}
                 <Typography align="center">
                     {props.pokemonName}
                 </Typography>

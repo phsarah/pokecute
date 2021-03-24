@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const Container = styled.div`
+    height: 100vh;
+    background-color: #EE3B3B;
+`
+
 export const ContainerGrid = styled.div`
     min-height: 100px;
     max-height: 1000vh;
@@ -12,5 +17,5 @@ export const ContainerGrid = styled.div`
     padding-left: 200px;
     padding-top: 50px;
     padding-bottom: 190px;
-    background-color: #EE3B3B;
 `
+
