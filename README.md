@@ -1,14 +1,14 @@
 # Pokedex
 Projeto front-end com integração a PokeAPI
 
-# Tecnologias
+ ## Tecnologias utilizadas :books:
 
 * Javascript
 * Node.js
 * React.js
 * Bootstrap
+* React Router
 * styled-components
-* router
 
 # Para rodar a aplicação
 
