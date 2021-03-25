@@ -8,7 +8,7 @@ Projeto front-end com integração a PokeAPI
 * React.js
 * Bootstrap
 * React Router
-* *Axios
+* Axios
 * styled-components
 
 ## Para rodar a aplicação
@@ -34,7 +34,6 @@ O projeto será iniciado na porta 3000
 http://localhost:3000/
 
 
-
-
+<br/>
 
 Eu agradeço a visita e boa codificação! 
