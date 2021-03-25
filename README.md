@@ -14,13 +14,15 @@ Projeto front-end com integração a PokeAPI
 
 * Abra seu terminal git e clone o repositorio
 
-<git clone https://github.com/phsarah/pokedex.git>
+```git clone https://github.com/phsarah/pokedex.git```
 
 * Para rodar o projeto 
 
-<npm run start>
+```npm run start```
 
-O projeto será iniciado na porta 3000: http://localhost:3000/
+O projeto será iniciado na porta 3000
+
+http://localhost:3000/
 
 
-Eu agradeço a visita e boa codificação! <squirtle>
+Eu agradeço a visita e boa codificação! <squirttle>
