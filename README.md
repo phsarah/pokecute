@@ -8,6 +8,7 @@ Projeto front-end com integração a PokeAPI
 * React.js
 * Bootstrap
 * React Router
+* *Axios
 * styled-components
 
 ## Para rodar a aplicação
