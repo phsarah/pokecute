@@ -1,10 +1,8 @@
 import React from "react";
-import {Container, Title} from './styles'
+import {Container, Title, ContainerButton} from './styles'
 import { useHistory } from 'react-router-dom';
 import { goToHome, goToPokedex, goBack } from '../../route/Coordinator';
 import { Button } from "@chakra-ui/react"
-import  pokeball  from '../../assets/pokeball.png'
-import { withTheme } from "@emotion/react";
 
 function Navbar(props){
 
@@ -82,13 +80,14 @@ function Navbar(props){
 
     return(
         <Container>
+            <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG24.png"/>
             {props.title === 'Home'? <Title>Pokemons</Title> 
             : props.title === 'Pokedex' ?
                 <Title>Pokedex</Title>
             : props.title === 'Detail' ?
                 <Title>Detalhes</Title>
             :    ""
-            }       
+            }
             <ChangeButton/>
             <ChangeButton2/>
         </Container>

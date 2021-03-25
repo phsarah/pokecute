@@ -3,7 +3,29 @@ import axios from 'axios'
 import Navbar from '../../components/navbar/Navbar'
 import GlobalStateContext from '../../global/GlobalStateContext'
 import {DetailsContainer, SpritesContainer, SpritesFront, SpritesBack, StatsContainer, 
-TypesMoveContainer, TypesContainer, MovesContainer } from './styles'
+TypesMoveContainer, TypesContainer, MovesContainer, Container, Title, Text, TextType } from './styles'
+import bootstrap from 'bootstrap'
+
+const TYPE_COLORS = {
+    bug: 'B1C12E',
+    dark: '4F3A2D',
+    dragon: '755EDF',
+    electric: 'FCBC17',
+    fairy: 'F4B1F4',
+    fighting: '823551D',
+    fire: 'E73B0C',
+    flying: 'A3B3F7',
+    ghost: '6060B2',
+    grass: '74C236',
+    ground: 'D3B357',
+    ice: 'A3E7FD',
+    normal: 'C8C4BC',
+    poison: '934594',
+    psychic: 'ED4882',
+    rock: 'B9A156',
+    steel: 'B5B5C3',
+    water: '3295F6'
+  };
 
 function DetailPage(){
     const { states } = useContext(GlobalStateContext)
@@ -24,6 +46,7 @@ function DetailPage(){
                 data.push(res.data)
                 setPokemonType(res.data.types)
                 setPokemonData(data)
+                console.log(pokemonData)
                 setPokemonMoves(res.data.moves)
             })
             .catch((e) => {
@@ -32,52 +55,59 @@ function DetailPage(){
     }
 
     return(
-        <div>
-            <Navbar title="Detail"/>
+        <Container>
+            <Navbar title='Detail'/>
             {pokemonData.map((data) => {
                 return(
                     <DetailsContainer>
                     <SpritesContainer>
                         <SpritesFront>
-                            <img src={data.sprites['front_default']} alt='imagem de frente' />
+                            <img src={data.sprites.front_default} alt='imagem de frente' />
                         </SpritesFront>
     
                         <SpritesBack>
-                            <img src={data.sprites['back_default']} alt='imagem de costas'/>
+                            <img src={data.sprites.back_default} alt='imagem de costas'/>
                         </SpritesBack>
                     </SpritesContainer>
     
                     <StatsContainer>
-                        <h1>Stats</h1>
-                        <p>HP: {data.stats[0].base_stat} </p>
-                        <p>attack: {data.stats[1].base_stat} </p>
-                        <p>defense: {data.stats[2].base_stat}</p>
-                        <p>special-attack: {data.stats[3].base_stat}</p>
-                        <p>special-defense: {data.stats[4].base_stat}</p>
-                        <p>speed: {data.stats[5].base_stat}</p>
+                        <Title>Stats</Title>
+                        <Text>HP: <text class="progress-bar">{data.stats[0].base_stat}</text> </Text>
+                        <Text>attack: {data.stats[1].base_stat} </Text>
+                        <Text>defense: {data.stats[2].base_stat}</Text>
+                        <Text>special-attack: {data.stats[3].base_stat}</Text>
+                        <Text>special-defense: {data.stats[4].base_stat}</Text>
+                        <Text>speed: {data.stats[5].base_stat}</Text>
                     </StatsContainer>
                     <TypesMoveContainer>
                         <TypesContainer>
-                            <h2>Types</h2>
+                            <Title>Types</Title>
                             {pokemonType.map((types) =>{
                                return(
-                                <p>{types.type.name}</p>
+                                <span
+                                    key={types.type.name}    
+                                    style={{
+                                        backgroundColor: `#${TYPE_COLORS[types.type.name]}`,
+                                        color: 'white'
+                                    }}
+                                >
+                                </span>
                                )
                            })}
                         </TypesContainer>
                     </TypesMoveContainer>
                     <MovesContainer>
-                            <h1>Moves</h1>
+                            <Title>Moves</Title>
                             {pokemonMoves.map((moves) => {
                                 return(
-                                <p>{moves.move.name}</p>
+                                <Text>{moves.move.name}</Text>
                                 )
                             })}
                     </MovesContainer>
                 </DetailsContainer>
                 )
             })}
-        </div>
+        </Container>
     )
 }
 

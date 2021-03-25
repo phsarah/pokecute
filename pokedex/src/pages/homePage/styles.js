@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+
+
 export const ContainerGrid = styled.div`
     position: relative;
     display: flex;
@@ -13,6 +15,6 @@ export const ContainerGrid = styled.div`
 
 export const Container = styled.div`
     
-    background-image: url("https://thumbs.dreamstime.com/b/fundo-poligonal-azul-do-mosaico-com-inclina%C3%A7%C3%A3o-77632563.jpg");
+    background-image: url("http://papers.co/wallpaper/papers.co-sk21-green-light-pastel-blur-gradation-34-iphone6-plus-wallpaper.jpg");
     background-repeat: repeat;
 `

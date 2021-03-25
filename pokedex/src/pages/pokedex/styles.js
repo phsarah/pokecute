@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     height: 100vh;
-    background-color: #EE3B3B;
+    background-color: rgba(255, 0, 0, 0.9);
 `
 
 export const ContainerGrid = styled.div`
@@ -19,3 +19,6 @@ export const ContainerGrid = styled.div`
     padding-bottom: 190px;
 `
 
+export const TextType = styled.div`
+    
+`

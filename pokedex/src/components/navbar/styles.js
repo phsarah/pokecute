@@ -9,9 +9,15 @@ export const Title = styled.h1`
 `
 export const Container = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 100px;
     padding-right: 50px;
-    background: #CD2626;
+    background-image: url("http://papers.co/wallpaper/papers.co-sk21-green-light-pastel-blur-gradation-34-iphone6-plus-wallpaper.jpg");
     height: 60px;
+`
+export const ContainerButton = styled.div`
+    position: relative;
+    height: 10px
+    display: flex;
+    justify-content: flex-end;
 `

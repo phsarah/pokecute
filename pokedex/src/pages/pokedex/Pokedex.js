@@ -8,7 +8,7 @@ import {ContainerGrid, Container} from './styles'
 function Pokedex(){
     const { states, setters, requests } = useContext(GlobalStateContext)
 
-    const removeFromPokedex =(pokeToRemove) => {
+    const removeFromPokedex = (pokeToRemove) => {
         const index = states.pokedex.findIndex((pokemon) => pokemon.name === pokeToRemove.name)
         let newPokedex = [...states.pokedex]
         newPokedex.splice(index, 1)

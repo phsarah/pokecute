@@ -75,11 +75,14 @@ function PokeCard(props){
                     >
                         Remover
                     </Button>
+                    <Link to={'/details'}>
                     <Button
                         variant="outline"
+                        onClick={props.setPokemon}
                     >
                         ver detal.
                     </Button>
+                    </Link>
                 </div>
             )
             default:
