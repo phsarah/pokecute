@@ -10,7 +10,7 @@ Projeto front-end com integração a PokeAPI
 * React Router
 * styled-components
 
-# Para rodar a aplicação
+## Para rodar a aplicação
 
 * No terminal, clone o projeto
 
