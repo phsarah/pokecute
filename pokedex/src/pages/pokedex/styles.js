@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     height: 100vh;
-    background-color: rgba(255, 0, 0, 0.9);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZlUUxv3u41wOstyZ64nZqy5Y5dO17__Q5g&usqp=CAU");
+    background-repeat: repeat;
+
 `
 
 export const ContainerGrid = styled.div`

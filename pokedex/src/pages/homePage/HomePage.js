@@ -27,7 +27,6 @@ function HomePage(){
 
     const setPokemon = (pokemon) => {
         setters.setPokemonToDetail(pokemon)
-        console.log(states.pokemonToDetail)
     }
 
     const addToPokedex = (newPokemon) => {

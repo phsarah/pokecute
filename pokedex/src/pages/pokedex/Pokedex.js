@@ -33,7 +33,7 @@ function Pokedex(){
     }
     return(
         <Container>
-            <Navbar title="Pokedex"/>
+            <Navbar title="Pokedex" color='black'/>
             <ContainerGrid>
             {pokemonInPokedex}
             </ContainerGrid>

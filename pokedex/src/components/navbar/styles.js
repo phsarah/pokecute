@@ -12,7 +12,6 @@ export const Container = styled.div`
     justify-content: space-evenly;
     padding-left: 100px;
     padding-right: 50px;
-    background-image: url("http://papers.co/wallpaper/papers.co-sk21-green-light-pastel-blur-gradation-34-iphone6-plus-wallpaper.jpg");
     height: 60px;
 `
 export const ContainerButton = styled.div`

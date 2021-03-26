@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import pattern from '../../assets/pattern.png'
 
 export const ContainerGrid = styled.div`
     position: relative;
@@ -15,6 +15,6 @@ export const ContainerGrid = styled.div`
 
 export const Container = styled.div`
     
-    background-image: url("http://papers.co/wallpaper/papers.co-sk21-green-light-pastel-blur-gradation-34-iphone6-plus-wallpaper.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqayKDcYHsUgntjRvMb23XRcwK67ndBVXPCK_eRm4R1EVTtlcFfZOhz0TShzdNW1dGIw&usqp=CAU");
     background-repeat: repeat;
 `

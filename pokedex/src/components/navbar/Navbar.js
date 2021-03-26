@@ -1,14 +1,19 @@
-import React from "react";
+import React,  { useContext } from "react";
 import {Container, Title, ContainerButton} from './styles'
 import { useHistory } from 'react-router-dom';
 import { goToHome, goToPokedex, goBack } from '../../route/Coordinator';
 import { Button } from "@chakra-ui/react"
+import GlobalStateContext from '../../global/GlobalStateContext';
+import pokedex from '../../assets/pokedex.png'
 
 function Navbar(props){
 
     const history = useHistory()
+    const { states, setters, requests } = useContext(GlobalStateContext)
 
-    const ChangeButton = () => {
+
+
+    const ChangeButton = (color) => {
         switch(props.title){
             case('Home'):
             return(
@@ -29,7 +34,8 @@ function Navbar(props){
                     marginTop="10px"
                     marginBottom="30px"
                     variant="outline"
-                    color="white"
+                    borderColor='white'
+                    color='white'
                     onClick={() => goToHome(history)}
                 >
                     Lista de Pokemons
@@ -52,6 +58,7 @@ function Navbar(props){
                         variant="outline"
                         marginTop="10px"
                         marginBottom="30px"
+                        
                     >
                         Adicionar/Remover da pokedex
                     </Button>
@@ -63,34 +70,40 @@ function Navbar(props){
                 )
         }
     }
-    const ChangeButton2 = () => {
-        switch(props.title){
-            case('Home'):
-            return ""
-            case('Pokedex'):
-            return ""
-            case('Detail'):
-            return""
-            default:
-                return(
-                    <div></div>
-                )
-        }
-    }
 
     return(
-        <Container>
-            <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG24.png"/>
-            {props.title === 'Home'? <Title>Pokemons</Title> 
-            : props.title === 'Pokedex' ?
-                <Title>Pokedex</Title>
-            : props.title === 'Detail' ?
-                <Title>Detalhes</Title>
-            :    ""
-            }
-            <ChangeButton/>
-            <ChangeButton2/>
-        </Container>
+            <div>
+                {props.title === 'Home' ? 
+                    <Container
+                        style={{ backgroundImage: "url('http://papers.co/wallpaper/papers.co-sk21-green-light-pastel-blur-gradation-34-iphone6-plus-wallpaper.jpg')"}}
+                    >
+                        <Title> </Title>
+                        <img src={'https://o.remove.bg/downloads/75165fb7-e42d-43c1-80c1-3c2cd141658e/hd-pokemon-logo-hd-pokemon-logo-png-clipart-removebg-preview.png'}/>
+                        <ChangeButton/>
+                    </Container>
+                    : props.title === 'Pokedex' ?
+                    <Container
+                        style={{ backgroundColor: "transparent"}}
+                    >
+                        <Title
+                             style={{ color: "white"}}
+                        >  </Title>
+                        <img src={'https://o.remove.bg/downloads/75165fb7-e42d-43c1-80c1-3c2cd141658e/hd-pokemon-logo-hd-pokemon-logo-png-clipart-removebg-preview.png'}/>
+                        <ChangeButton color="white"/>
+                    </Container>
+                    : props.title === 'Detail' ?
+                    <Container
+                        style={{ backgroundImage: "url('http://papers.co/wallpaper/papers.co-sk21-green-light-pastel-blur-gradation-34-iphone6-plus-wallpaper.jpg')"}}
+                >
+                        <Title
+                             style={{ color: "white"}}
+                        >  </Title>
+                        <img src={'https://o.remove.bg/downloads/75165fb7-e42d-43c1-80c1-3c2cd141658e/hd-pokemon-logo-hd-pokemon-logo-png-clipart-removebg-preview.png'}/>
+                        <ChangeButton color="white"/>
+                    </Container>
+                    : ""
+                }
+            </div>
     )
 }
 

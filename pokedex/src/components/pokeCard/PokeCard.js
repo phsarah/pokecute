@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import axios from 'axios'
-import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import CardActions from '@material-ui/core/CardActions';
 import { Button } from "@chakra-ui/react"
@@ -98,7 +97,12 @@ function PokeCard(props){
            </HeaderIndex>
                 {isLoading ? <CircularProgress size={30}/> : <img src={pokemonImage}/>}
                 <Typography align="center">
-                    {props.pokemonName}
+                    {props.pokemonName
+                        .substring(0,1)
+                        .toUpperCase()
+                        .concat(props.pokemonName
+                        .substring(1))
+                    }
                 </Typography>
                 <CardActions>
                     <ChangeButton/>

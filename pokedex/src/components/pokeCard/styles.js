@@ -9,6 +9,8 @@ export const Container = styled.div`
     border: 2px solid #E8E8E8;
     background-color: #E8E8E8;
     box-shadow: 10px 30px 35px;
+    border-radius: 20px;
+
 `
 
 export const HeaderIndex = styled.div`
