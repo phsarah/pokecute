@@ -1,4 +1,9 @@
+
+![image](https://user-images.githubusercontent.com/47975293/112710649-a7248780-8ea1-11eb-9667-770a441699d9.png)
+
+
 # :joystick: Pokedex
+
 Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
 
 <br/>
@@ -44,7 +49,7 @@ The following tools were used in the construction of the project:
 
 <br/>
 
-## Back End
+## :cd: Back End
 
 https://pokeapi.co/
 
