@@ -1,13 +1,16 @@
 # :joystick: Pokedex
 Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. <br/>
 Its functionalities are:
+
 <br/>
+
 * to add a pokemon to the pokédex;
 * remove pokédex pokémon;
 * details of each pokemon.
 
+<br/>
 
-## 🛠 Tecnologias 
+## 🛠 Technology 
  
 The following tools were used in the construction of the project:
 
@@ -27,6 +30,15 @@ The following tools were used in the construction of the project:
 * Github
  
 <br/>
+
+
+## Images
+
+
+![image](https://user-images.githubusercontent.com/47975293/112710428-f5d12200-8e9f-11eb-9ece-f81c6a07ba18.png)
+
+
+
 
 ## :rocket: How to run the project
 
