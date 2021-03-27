@@ -62,7 +62,7 @@ At the terminal,
 
 <br/>
 
-The server will open on the port:3003 - access <http://localhost:3003>
+The server will open on the port 3003 - <http://localhost:3003>
 
 
 <br/>
