@@ -1,7 +1,6 @@
 # :joystick: Pokedex
 Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
 
-https://pokeapi.co/
 <br/>
 
 Its functionalities are:
@@ -13,6 +12,7 @@ Its functionalities are:
 * details of each pokemon.
 
 <br/>
+
 
 ## 🛠 Technology 
  
@@ -42,7 +42,13 @@ The following tools were used in the construction of the project:
 ![image](https://user-images.githubusercontent.com/47975293/112710428-f5d12200-8e9f-11eb-9ece-f81c6a07ba18.png)
 
 
+<br/>
 
+## Back End
+
+https://pokeapi.co/
+
+<br/>
 
 ## :rocket: How to run the project
 
