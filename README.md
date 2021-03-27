@@ -1,8 +1,10 @@
 # Pokedex
 Projeto front-end com integração a PokeAPI
 
- ## Tecnologias utilizadas :books:
-
+## 🛠 Tecnologias 
+ 
+As seguintes ferramentas foram usadas na construção do projeto:
+ 
 * Javascript
 * Node.js
 * React.js
@@ -10,14 +12,23 @@ Projeto front-end com integração a PokeAPI
 * React Router
 * Axios
 * styled-components
+ 
+ 
+### Serviços usados
+ 
+* Teste de API: Postman
+* Github
+ 
+ 
+## :rocket: Como executar o projeto
 
-## Para rodar a aplicação
+No terminal,
 
-* No terminal git, clone o projeto
+*  Clone a aplicação <br/>
 
 ```git clone https://github.com/phsarah/pokedex.git```
 
-* Entre na pasta do projeto 
+* Entre na pasta ```pokedex``` 
 
 ```cd pokedex ```
 
@@ -29,54 +40,12 @@ Projeto front-end com integração a PokeAPI
 
 ```npm run start```
 
-O projeto será iniciado na porta 3000
-
-http://localhost:3000/
-
-
-<br/>
-
-Eu agradeço a visita e boa codificação! 
-# Pixalabel
- 
-
- 
- 
-## 🛠 Tecnologias 
- 
-As seguintes ferramentas foram usadas na construção do projeto:
- 
-* Node.js 
-* Typescript
-* Express
-* Axios
-* Cors
- 
- 
-### Serviços usados
- 
-* Teste de API: Postman
-* Github
- 
- 
-## :rocket: Como executar o projeto
-
-
- Clone este repositório <br/>
- 
-`$ git clone <https://github.com/phsarah/backend-project.git`
-
- Instale as dependências <br/>
- 
-`$ npm install`
-
- Execute a aplicação <br/>
- 
-`$ npm run start`
-
-<br/>
-
 O servidor inciará na porta:3003 - acesse <http://localhost:3003>
+
+
+<br/>
+
+
  
 ## :smile: Como contribuir para o projeto
 
