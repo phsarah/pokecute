@@ -5,7 +5,7 @@ Its functionalities are:
 * to add a pokemon to the pokédex;
 * remove pokédex pokémon;
 * details of each pokemon.
-<br/>
+
 ## 🛠 Tecnologias 
  
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -18,13 +18,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * Axios
 * styled-components
  
-<br/>
+
 ### Serviços usados
  
 * Teste de API: Postman
 * Github
  
- <br/>
+
 ## :rocket: Como executar o projeto
 
 No terminal,
@@ -60,6 +60,7 @@ O servidor inciará na porta:3003 - acesse <http://localhost:3003>
 4.  Envie as suas alterações: `git commit -m "feature: My new feature" `
  
 <br/> 
+
 ## Autora
  
 * **Sarah Pereira Hessel**: @phsarah (https://github.com/phsarah)
