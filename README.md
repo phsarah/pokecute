@@ -1,6 +1,6 @@
 
 
-# :joystick: Pokeject
+# :joystick: Pokecute
 
 Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
 
@@ -43,6 +43,9 @@ The following tools were used in the construction of the project:
 
 
 ![image](https://user-images.githubusercontent.com/47975293/112710428-f5d12200-8e9f-11eb-9ece-f81c6a07ba18.png)
+![image](https://user-images.githubusercontent.com/47975293/112710968-aee52b80-8ea3-11eb-9853-40c545417032.png)
+![image](https://user-images.githubusercontent.com/47975293/112710982-c8867300-8ea3-11eb-87d0-9382233beb54.png)
+![Uploading image.png…]()
 
 
 <br/>
