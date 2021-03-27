@@ -1,6 +1,6 @@
 
 
-# :joystick: Pokecute
+# :cute: Pokecute
 
 Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
 
@@ -42,10 +42,9 @@ The following tools were used in the construction of the project:
 ## Images
 
 
-![image](https://user-images.githubusercontent.com/47975293/112710428-f5d12200-8e9f-11eb-9ece-f81c6a07ba18.png)
 ![image](https://user-images.githubusercontent.com/47975293/112710968-aee52b80-8ea3-11eb-9853-40c545417032.png)
 ![image](https://user-images.githubusercontent.com/47975293/112710982-c8867300-8ea3-11eb-87d0-9382233beb54.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/47975293/112710994-eeac1300-8ea3-11eb-9e66-ded26bf50126.png)
 
 
 <br/>
@@ -97,6 +96,7 @@ The server will open on the port 3003 - <http://localhost:3003>
 ## Author
  
 * **Sarah Pereira Hessel**: @phsarah (https://github.com/phsarah)
+
 <br/>
- <br/>
+
 Thank you for your visit and good coding! :shipit:
