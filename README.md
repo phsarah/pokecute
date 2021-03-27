@@ -6,7 +6,6 @@ Its functionalities are:
 * remove pokédex pokémon;
 * details of each pokemon.
 
- <br/>
 
 ## 🛠 Tecnologias 
  
@@ -27,6 +26,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * Teste de API: Postman
 * Github
  
+<br/>
 
 ## :rocket: Como executar o projeto
 
@@ -47,6 +47,8 @@ No terminal,
 * Execute a aplicação 
 
 ```npm run start```
+
+<br/>
 
 O servidor inciará na porta:3003 - acesse <http://localhost:3003>
 
