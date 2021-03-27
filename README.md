@@ -1,6 +1,6 @@
 
 
-# :cute: Pokecute
+#  Pokecute
 
 Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
 
