@@ -39,7 +39,7 @@ The following tools were used in the construction of the project:
 <br/>
 
 
-## Images
+## :fax: Images
 
 
 ![image](https://user-images.githubusercontent.com/47975293/112710968-aee52b80-8ea3-11eb-9853-40c545417032.png)
@@ -49,7 +49,7 @@ The following tools were used in the construction of the project:
 
 <br/>
 
-## :cd: Back End
+## :cd: API
 
 https://pokeapi.co/
 
