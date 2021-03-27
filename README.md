@@ -1,5 +1,10 @@
 # Pokedex
-Projeto front-end com integração a PokeAPI
+Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex.
+Its functionalities are:
+<br/>
+* to add a pokemon to the pokédex;
+* remove pokédex pokémon;
+* details of each pokemon.
 
 ## 🛠 Tecnologias 
  
