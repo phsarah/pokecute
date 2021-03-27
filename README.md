@@ -1,10 +1,12 @@
 # :joystick: Pokedex
-Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex.
+Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. <br/>
 Its functionalities are:
 <br/>
 * to add a pokemon to the pokédex;
 * remove pokédex pokémon;
 * details of each pokemon.
+
+ <br/>
 
 ## 🛠 Tecnologias 
  
@@ -18,6 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * Axios
 * styled-components
  
+ <br/>
 
 ### Serviços usados
  
