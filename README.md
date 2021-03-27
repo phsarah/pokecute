@@ -9,8 +9,8 @@ Its functionalities are:
 
 ## 🛠 Tecnologias 
  
-As seguintes ferramentas foram usadas na construção do projeto:
- 
+The following tools were used in the construction of the project:
+
 * Javascript
 * Node.js
 * React.js
@@ -21,54 +21,54 @@ As seguintes ferramentas foram usadas na construção do projeto:
  
  <br/>
 
-### Serviços usados
+### Used services
  
-* Teste de API: Postman
+* Test of API: Postman
 * Github
  
 <br/>
 
-## :rocket: Como executar o projeto
+## :rocket: How to run the project
 
-No terminal,
+At the terminal,
 
-*  Clone a aplicação <br/>
+*  Clone the application <br/>
 
 ```git clone https://github.com/phsarah/pokedex.git```
 
-* Entre na pasta ```pokedex``` 
+* Enter the folder ```pokedex``` 
 
 ```cd pokedex ```
 
-* Instale as dependencias 
+* Install the dependencies 
 
 ``` npm install ```
 
-* Execute a aplicação 
+* Run the application
 
 ```npm run start```
 
 <br/>
 
-O servidor inciará na porta:3003 - acesse <http://localhost:3003>
+The server will open on the port:3003 - access <http://localhost:3003>
 
 
 <br/>
 
 
  
-## :smile: Como contribuir para o projeto
+## :smile: How to contribute to the project
 
-1.  Faça um fork do projeto.
-2.  Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3.  Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4.  Envie as suas alterações: `git commit -m "feature: My new feature" `
+1.  Fork the project.
+2.  Create a new branch with your changes: `git checkout -b my-feature`
+3.  Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
+4.  Submit your changes: `git commit -m "feature: My new feature" `
  
 <br/> 
 
-## Autora
+## Author
  
 * **Sarah Pereira Hessel**: @phsarah (https://github.com/phsarah)
 <br/>
  <br/>
-Agradeço pela visita e boa codificação! :shipit:
+Thank you for your visit and good coding! :shipit:
