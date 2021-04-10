@@ -49,9 +49,9 @@ The server will open on the port 3003 - <http://localhost:3003>
 
 
 <a id="features"></a>
-## :diamond: Features
+## ♦️ Features
 
-- To add a pokemon to the pokédex;
+- Add a pokemon to the pokédex;
 - Remove pokédex pokémon;
 - Details of each pokemon.
 
@@ -137,7 +137,7 @@ O servidor abrirá na porta 3003 - <http://localhost:3003>
 
 
 <a id="funcionalidades"></a>
-## :diamond: Funcionalidades
+## ♦️ Funcionalidades
 
 - Adicione um pokémon ao pokédex;
 - Remova pokémon da pokedex;
