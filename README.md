@@ -5,7 +5,7 @@
 <a id="en-readme"></a>
 ### English | [Português](#pt-readme)
 Front-end project developed in Labenu's bootcamp. \
-Pokecute is a project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
+Pokecute is a project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 🤭
 
 <a name="en-menu"></a>
 - [Documentation](#documentation)
@@ -13,10 +13,10 @@ Pokecute is a project developed with PokeAPI integration, there are more than 60
 - [Features](#features)
 - [Images](#images)
 - [Libraries and Frameworks](#libs)
-- [Contribute](#contribute)
+- [How to contribute to the project](#contribute)
 
 <a id="documentation"></a>
-## :cd: Documentation
+## 📙 Documentation
 
 [PokeAPI](https://pokeapi.co/)
 
@@ -49,11 +49,11 @@ The server will open on the port 3003 - <http://localhost:3003>
 
 
 <a id="features"></a>
-## :small_orange_diamond: Features
+## :diamond: Features
 
-- to add a pokemon to the pokédex;
-- remove pokédex pokémon;
-- details of each pokemon.
+- To add a pokemon to the pokédex;
+- Remove pokédex pokémon;
+- Details of each pokemon.
 
 <a id="images"></a>
 ## :fax: Images
@@ -85,8 +85,95 @@ The following tools were used in the construction of the project:
 3.  Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
 4.  Submit your changes: `git commit -m "feature: My new feature" `
  
-<br/> 
 
 Thank you for your visit and good coding! :shipit:
 
 *Developed with :sparkling_heart:	by Sarah Hessel*
+
+<a id="pt-readme"></a>
+### [English](#en-readme) | Português
+Projeto de front-end desenvolvido no bootcamp do Labenu. \
+Pokecute é um projeto desenvolvido com integração PokeAPI, são mais de 60 pokemons disponíveis para conhecer e coletar em sua própria pokedex. 🤭
+
+<a name="en-menu"></a>
+- [Documentação](#documentacao)
+- [Como rodar esse projeto](#steps)
+- [Funcionalidades](#funcionalidades)
+- [Imagens](#imagens)
+- [Bibliotecas e Frameworks](#libs)
+- [Como contribuir para esse projeto](#contribute)
+
+<a id="documentacao"></a>
+## 📙 Documentação
+
+[PokeAPI](https://pokeapi.co/)
+
+
+<a id="steps"></a>
+## :rocket: Como rodar esse projeto
+
+No terminal,
+
+1.  Clone essa aplicação <br/>
+```
+git clone https://github.com/phsarah/pokedex.git
+```
+2. Entre na pasta ```pokedex``` 
+```
+cd pokedex 
+```
+3. Instale as dependências 
+``` 
+npm install 
+```
+
+4. Rode a aplicação
+```
+npm run start
+```
+<br/>
+
+O servidor abrirá na porta 3003 - <http://localhost:3003>
+
+
+<a id="funcionalidades"></a>
+## :diamond: Funcionalidades
+
+- Adicione um pokémon ao pokédex;
+- Remova pokémon da pokedex;
+- Detalhes de cada Pokémon.
+
+<a id="imagens"></a>
+## :fax: Imagens
+
+
+![image](https://user-images.githubusercontent.com/47975293/112710968-aee52b80-8ea3-11eb-9853-40c545417032.png)
+![image](https://user-images.githubusercontent.com/47975293/112710982-c8867300-8ea3-11eb-87d0-9382233beb54.png)
+![image](https://user-images.githubusercontent.com/47975293/112710994-eeac1300-8ea3-11eb-9e66-ded26bf50126.png)
+
+
+<a id="libs"></a>
+## 🛠 Bibliotecas e Frameworks 
+ 
+As seguintes ferramentas foram utilizadas na construção do projeto:
+
+* Javascript
+* Node.js
+* React.js
+* Bootstrap
+* React Router
+* Axios
+* Styled-components
+
+<a id="contribute"></a>
+## :smile: Como contribuir para o projeto 
+
+1. Faça um fork do projeto.
+2. Crie um novo branch com suas alterações: `git checkout -b my-feature`
+3. Salve suas alterações e crie uma mensagem de confirmação informando o que você fez: `git commit -m" feature: My new feature "`
+4. Envie suas alterações: `git commit -m" feature: My new feature "`
+ 
+
+Obrigada pela visita e boa codificação! :shipit:
+
+*Desenvolvido com :sparkling_heart: por Sarah Hessel*
