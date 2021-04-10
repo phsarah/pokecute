@@ -2,56 +2,26 @@
 
 #  Pokecute
 
-Front-end project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
+<a id="en-readme"></a>
+### English | [Português](#pt-readme)
+Front-end project developed in Labenu's bootcamp. \
+Pokecute is a project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 
 
-<br/>
+<a name="en-menu"></a>
+- [Documentation](#documentation)
+- [How to run the project](#steps)
+- [Features](#features)
+- [Images](#images)
+- [Libraries and Frameworks](#libs)
+- [Contribute](#contribute)
 
+<a id="documentation"></a>
+## :cd: Documentation
 
-## :small_orange_diamond: Features
-
-- to add a pokemon to the pokédex;
-- remove pokédex pokémon;
-- details of each pokemon.
-
-
-## 🛠 Technology 
- 
-The following tools were used in the construction of the project:
-
-* Javascript
-* Node.js
-* React.js
-* Bootstrap
-* React Router
-* Axios
-* styled-components
- 
- <br/>
-
-### Used services
- 
-* Test of API: Postman
-* Github
- 
-<br/>
+[PokeAPI](https://pokeapi.co/)
 
 
-## :fax: Images
-
-
-![image](https://user-images.githubusercontent.com/47975293/112710968-aee52b80-8ea3-11eb-9853-40c545417032.png)
-![image](https://user-images.githubusercontent.com/47975293/112710982-c8867300-8ea3-11eb-87d0-9382233beb54.png)
-![image](https://user-images.githubusercontent.com/47975293/112710994-eeac1300-8ea3-11eb-9e66-ded26bf50126.png)
-
-
-<br/>
-
-## :cd: API
-
-https://pokeapi.co/
-
-<br/>
-
+<a id="steps"></a>
 ## :rocket: How to run the project
 
 At the terminal,
@@ -78,10 +48,36 @@ npm run start
 The server will open on the port 3003 - <http://localhost:3003>
 
 
-<br/>
+<a id="features"></a>
+## :small_orange_diamond: Features
+
+- to add a pokemon to the pokédex;
+- remove pokédex pokémon;
+- details of each pokemon.
+
+<a id="images"></a>
+## :fax: Images
 
 
+![image](https://user-images.githubusercontent.com/47975293/112710968-aee52b80-8ea3-11eb-9853-40c545417032.png)
+![image](https://user-images.githubusercontent.com/47975293/112710982-c8867300-8ea3-11eb-87d0-9382233beb54.png)
+![image](https://user-images.githubusercontent.com/47975293/112710994-eeac1300-8ea3-11eb-9e66-ded26bf50126.png)
+
+
+<a id="libs"></a>
+## 🛠 Libraries and Frameworks 
  
+The following tools were used in the construction of the project:
+
+* Javascript
+* Node.js
+* React.js
+* Bootstrap
+* React Router
+* Axios
+* Styled-components
+
+<a id="contribute"></a>
 ## :smile: How to contribute to the project
 
 1.  Fork the project.
