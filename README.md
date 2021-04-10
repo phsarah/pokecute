@@ -6,15 +6,12 @@ Front-end project developed with PokeAPI integration, there are more than 60 pok
 
 <br/>
 
-Its functionalities are:
 
-<br/>
+## :small_orange_diamond: Features
 
-* to add a pokemon to the pokédex;
-* remove pokédex pokémon;
-* details of each pokemon.
-
-<br/>
+- to add a pokemon to the pokédex;
+- remove pokédex pokémon;
+- details of each pokemon.
 
 
 ## 🛠 Technology 
@@ -59,22 +56,23 @@ https://pokeapi.co/
 
 At the terminal,
 
-*  Clone the application <br/>
+1.  Clone the application <br/>
+```
+git clone https://github.com/phsarah/pokedex.git
+```
+2. Enter the folder ```pokedex``` 
+```
+cd pokedex 
+```
+3. Install the dependencies 
+``` 
+npm install 
+```
 
-```git clone https://github.com/phsarah/pokedex.git```
-
-* Enter the folder ```pokedex``` 
-
-```cd pokedex ```
-
-* Install the dependencies 
-
-``` npm install ```
-
-* Run the application
-
-```npm run start```
-
+4. Run the application
+```
+npm run start
+```
 <br/>
 
 The server will open on the port 3003 - <http://localhost:3003>
@@ -93,10 +91,6 @@ The server will open on the port 3003 - <http://localhost:3003>
  
 <br/> 
 
-## Author
- 
-* **Sarah Pereira Hessel**: @phsarah (https://github.com/phsarah)
-
-<br/>
-
 Thank you for your visit and good coding! :shipit:
+
+*Developed with :sparkling_heart:	by Sarah Hessel*
