@@ -94,7 +94,7 @@ Thank you for your visit and good coding! :shipit:
 -------
 <a id="pt-readme"></a>
 ### [English](#en-readme) | Português
-Projeto de front-end desenvolvido no bootcamp do Labenu. \
+Projeto de front-end desenvolvido no bootcamp da Labenu. \
 Pokecute é um projeto desenvolvido com integração PokeAPI, são mais de 60 pokemons disponíveis para conhecer e coletar em sua própria pokedex.🤭
 
 <a name="en-menu"></a>
