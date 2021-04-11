@@ -85,7 +85,7 @@ The following tools were used in the construction of the project:
 3.  Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
 4.  Submit your changes: `git commit -m "feature: My new feature" `
  
-
+<br/>
 Thank you for your visit and good coding! :shipit:
 
 *Developed with :sparkling_heart:	by Sarah Hessel*
