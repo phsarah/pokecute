@@ -89,7 +89,7 @@ The following tools were used in the construction of the project:
 
 Thank you for your visit and good coding! :shipit:
 
-*Developed with :sparkling_heart:	by Sarah Hessel*
+*Developed with 💙	by Sarah Hessel*
 
 -------
 <a id="pt-readme"></a>
@@ -179,4 +179,4 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 Obrigada pela visita e boa codificação! :shipit:
 
-*Desenvolvido com :sparkling_heart: por Sarah Hessel*
+*Desenvolvido com 💙 por Sarah Hessel*
