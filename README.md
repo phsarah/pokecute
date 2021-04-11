@@ -5,11 +5,11 @@
 <a id="en-readme"></a>
 ### English | [Português](#pt-readme)
 Front-end project developed in Labenu's bootcamp. \
-Pokecute is a project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex. 🤭
+Pokecute is a project developed with PokeAPI integration, there are more than 60 pokemons available to meet and collect in your own pokedex.🤭
 
 <a name="en-menu"></a>
 - [Documentation](#documentation)
-- [How to run the project](#steps)
+- [Getting Started](#steps)
 - [Features](#features)
 - [Images](#images)
 - [Libraries and Frameworks](#libs)
@@ -22,7 +22,7 @@ Pokecute is a project developed with PokeAPI integration, there are more than 60
 
 
 <a id="steps"></a>
-## :rocket: How to run the project
+## :rocket: Getting Started
 
 At the terminal,
 
@@ -49,7 +49,7 @@ The server will open on the port 3003 - <http://localhost:3003>
 
 
 <a id="features"></a>
-## ♦️ Features
+## :small_orange_diamond: Features
 
 - Add a pokemon to the pokédex;
 - Remove pokédex pokémon;
@@ -90,14 +90,15 @@ Thank you for your visit and good coding! :shipit:
 
 *Developed with :sparkling_heart:	by Sarah Hessel*
 
+-------
 <a id="pt-readme"></a>
 ### [English](#en-readme) | Português
 Projeto de front-end desenvolvido no bootcamp do Labenu. \
-Pokecute é um projeto desenvolvido com integração PokeAPI, são mais de 60 pokemons disponíveis para conhecer e coletar em sua própria pokedex. 🤭
+Pokecute é um projeto desenvolvido com integração PokeAPI, são mais de 60 pokemons disponíveis para conhecer e coletar em sua própria pokedex.🤭
 
 <a name="en-menu"></a>
 - [Documentação](#documentacao)
-- [Como rodar esse projeto](#steps)
+- [Primeiros passos](#steps)
 - [Funcionalidades](#funcionalidades)
 - [Imagens](#imagens)
 - [Bibliotecas e Frameworks](#libs)
@@ -110,7 +111,7 @@ Pokecute é um projeto desenvolvido com integração PokeAPI, são mais de 60 po
 
 
 <a id="steps"></a>
-## :rocket: Como rodar esse projeto
+## :rocket: Primeiros passos
 
 No terminal,
 
@@ -137,7 +138,7 @@ O servidor abrirá na porta 3003 - <http://localhost:3003>
 
 
 <a id="funcionalidades"></a>
-## ♦️ Funcionalidades
+## :small_orange_diamond: Funcionalidades
 
 - Adicione um pokémon ao pokédex;
 - Remova pokémon da pokedex;
@@ -172,7 +173,8 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 2. Crie um novo branch com suas alterações: `git checkout -b my-feature`
 3. Salve suas alterações e crie uma mensagem de confirmação informando o que você fez: `git commit -m" feature: My new feature "`
 4. Envie suas alterações: `git commit -m" feature: My new feature "`
- 
+
+<br/> 
 
 Obrigada pela visita e boa codificação! :shipit:
 
