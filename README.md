@@ -1,6 +1,5 @@
 
-<a href=[Logo pokecute](https://user-images.githubusercontent.com/47975293/124369456-65467280-dc42-11eb-9782-cdae7607fc7f.png)
- rel="some text">![PokeCute]()</a>
+<a href=https://user-images.githubusercontent.com/47975293/124369456-65467280-dc42-11eb-9782-cdae7607fc7f.png rel="some text">![PokeCute]()</a>
 
 #  Pokecute
 
